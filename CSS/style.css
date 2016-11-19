@@ -1,0 +1,94 @@
+/* Gives website more centered look */
+p{
+    padding-left: 350px;
+    padding-right:350px;
+}
+#gallon {
+    width: 300px;
+}
+
+#redonions{
+    width:15%;
+}
+#kimchi{
+    width:15%;
+}
+#Jarred{
+    width:300px;
+    height:375px;
+}
+
+#lotsofjars{
+    width:300px;
+    height:150px;
+}
+
+#littlecukes{
+    width:200px;
+    display:inline-block;
+}
+
+#veggies{
+    width:200px;
+    display:inline-block;
+}
+#tomatoes{
+    width:200px;
+    height:200px;
+    display:inline-block;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Special Elite', sans-serif;
+    color: #CC5803;
+}
+
+/*Fonts for my text that are not headings*/
+p, li {
+    font-family: 'Roboto Condensed', sans-serif;;
+    font-size: 20px;
+    color:  #ffffff;
+}
+
+#naviBar {
+    list-style-type: none;
+    padding-left: 1.5em;
+    background-size: .75em;
+    background-repeat: no-repeat;
+}
+
+/* Yang's edit's to fix my navigation bar */
+#naviBar li {
+    display: inline;
+}
+
+#naviBar li a {
+    padding: 5px;
+}
+
+body{
+    background-color:#A7C6DA;
+    
+}
+/* My container div, going to try and use inline block to post my recipe to the right of this container*/
+#container{
+    width:50%;
+    float: left;
+}
+/* My recipe div*/
+#recipe{
+    width:50%;
+    float: right;
+}
+/* My footer*/
+.footer{
+    clear: both;
+    border:dashed;
+    color: #CC5803;
+
+}
+
+a {
+    color: white;
+}
